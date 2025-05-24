@@ -1,5 +1,10 @@
 m=$(date +%d/%m/%Y⠀⎦⎡⠀%H:%M⠀⎦⎢⠀%A)
 
+
+git config --global user.name "nanuraval"
+git config --global user.email "nanuraval1512@gmail.com"
+
+
 git pull --all
 git add .
 git commit -m $m
